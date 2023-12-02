@@ -1,0 +1,34 @@
+{
+  "attrs": { "width": 950, "height": 1028 },
+  "className": "Stage",
+  "children": [
+    {
+      "attrs": {},
+      "className": "Layer",
+      "children": [
+        {
+          "attrs": {
+            "x": 150,
+            "y": 150,
+            "radius": 70,
+            "fill": "red",
+            "draggable": true
+          },
+          "className": "Circle"
+        },
+        {
+          "attrs": {
+            "enabledAnchors": [
+              "top-center",
+              "middle-right",
+              "middle-left",
+              "bottom-center"
+            ],
+            "rotateEnabled": false
+          },
+          "className": "Transformer"
+        }
+      ]
+    }
+  ]
+}
